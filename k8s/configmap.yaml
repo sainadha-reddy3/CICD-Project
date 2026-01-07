@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cicd-demo-config
+data:
+  APP_ENV: "dev"
+  APP_MESSAGE: "Hello from ConfigMap"
