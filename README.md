@@ -32,25 +32,6 @@ Autoscaling: Horizontal Pod Autoscaler (HPA)
 
 Configuration: ConfigMaps & Secrets
 
-Repository Structure
-cicd-gke-project/
-│
-├── app/
-│   └── app.py                  # Application source code
-│
-├── Dockerfile                  # Docker image build instructions
-├── requirements.txt            # Python dependencies
-│
-├── k8s/
-│   ├── deployment.yaml         # Kubernetes Deployment
-│   ├── service.yaml            # Kubernetes Service
-│   ├── hpa.yaml                # Horizontal Pod Autoscaler
-│   ├── configmap.yaml          # Application configuration
-│   └── secret.yaml             # Application secrets (Base64 encoded)
-│
-└── .github/
-    └── workflows/
-        └── ci-cd.yaml           # GitHub Actions CI/CD pipeline
 
 CI/CD Pipeline Flow
 Continuous Integration (CI)
